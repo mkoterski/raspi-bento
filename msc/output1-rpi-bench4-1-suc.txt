@@ -1,0 +1,54 @@
+## Raspi Echelon - 192.168.1.138
+##
+## Command: sudo curl -L https://raw.githubusercontent.com/mkoterski/raspi-bento/refs/heads/master/msc/rpi-bench4.sh | sudo bash
+##
+## Output:
+##
+Raspi Bento - Version 3.02
+aarch64 | echelon
+20250117-1647
+
+temp=37.8'C
+arm_freq=2400
+arm_freq_min=1500
+core_freq=910
+core_freq_min=500
+gpu_freq_min=500
+sd_clock=200.000 MHz
+
+Skipping InternetSpeed test...
+Running CPU test...
+ total time: 10.0001s
+ min: 0.14
+ avg: 0.14
+ max: 0.30
+temp=43.3'C
+
+Running THREADS test...
+ total time: 10.0042s
+ min: 4.38
+ avg: 4.70
+ max: 42.06
+temp=45.0'C
+
+Running MEMORY test...
+3072.00 MiB transferred (8952.76 MiB/sec)
+ total time: 0.3415s
+ min: 0.00
+ avg: 0.00
+ max: 0.31
+temp=45.5'C
+
+Running HDPARM test...
+ Timing buffered disk reads: 260 MB in  3.00 seconds =  86.58 MB/sec
+temp=40.6'C
+
+Running DD WRITE test...
+536870912 bytes (537 MB, 512 MiB) copied, 7.59056 s, 70.7 MB/s
+temp=38.4'C
+
+Running DD READ test...
+536870912 bytes (537 MB, 512 MiB) copied, 5.93258 s, 90.5 MB/s
+temp=38.4'C
+
+AikonCWD's rpi-benchmark completed!

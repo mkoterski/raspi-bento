@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## DOES NOT WORK AS INTENDED
+
 [ "$(whoami)" == "root" ] || { echo "Must be run as sudo!"; exit 1; }
 
 # Install dependencies
