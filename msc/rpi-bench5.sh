@@ -26,8 +26,8 @@ sync
 model_info=$(cat /proc/device-tree/model | tr -d '\0')
 os_info=$(lsb_release -d | cut -f2)
 echo "Raspi Bento - Version 3.02"
-echo "$(hostname) | $os_info | $(uname -m) | $model_info"
-echo "$(date +%Y-%m-%d - %H:%M)"
+echo "$(hostname) | $os_info | $model_info | $(uname -m)" 
+echo "$(date +"%Y-%m-%d - %H:%M")"
 
 # Show current hardware
 vcgencmd measure_temp
