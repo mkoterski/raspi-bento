@@ -1,4 +1,4 @@
-Raspi bifrost
+Raspi bifrost - 192.168.1.137
 
 Raspberry Pi Benchmark Test
 Author: AikonCWD

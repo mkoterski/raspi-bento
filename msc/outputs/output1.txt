@@ -1,4 +1,4 @@
-Raspi Echelon
+Raspi Echelon - 192.168.1.138
 
 Raspberry Pi Benchmark Test
 Author: AikonCWD

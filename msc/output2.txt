@@ -1,4 +1,4 @@
-Raspi calypso
+Raspi calypso - 192.168.1.136
 
 Raspberry Pi Benchmark Test
 Author: AikonCWD

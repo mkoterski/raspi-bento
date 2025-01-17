@@ -1,4 +1,4 @@
-Raspi aeon
+Raspi aeon - 192.168.1.135
 
 Raspberry Pi Benchmark Test
 Author: AikonCWD

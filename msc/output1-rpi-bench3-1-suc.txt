@@ -1,0 +1,42 @@
+Raspi Echelon - 192.168.1.138
+
+Raspberry Pi Benchmark Test
+Author: AikonCWD
+Version: 3.0
+
+temp=38.4'C
+arm_freq=2400
+arm_freq_min=1500
+core_freq=910
+core_freq_min=500
+gpu_freq_min=500
+sd_clock=200.000 MHz
+
+Running InternetSpeed test...
+bash: line 34: speedtest-cli: command not found
+
+Running CPU test...
+bash: line 38: sysbench: command not found
+temp=38.9'C
+
+Running THREADS test...
+bash: line 43: sysbench: command not found
+temp=40.0'C
+
+Running MEMORY test...
+bash: line 48: sysbench: command not found
+temp=40.0'C
+
+Running HDPARM test...
+ Timing buffered disk reads:   2 MB in  6.33 seconds = 323.47 kB/sec
+temp=38.9'C
+
+Running DD WRITE test...
+536870912 bytes (537 MB, 512 MiB) copied, 82.4333 s, 6.5 MB/s
+temp=38.4'C
+
+Running DD READ test...
+536870912 bytes (537 MB, 512 MiB) copied, 24.7441 s, 21.7 MB/s
+temp=38.9'C
+
+AikonCWD's rpi-benchmark completed!
