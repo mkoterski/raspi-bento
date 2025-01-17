@@ -1,0 +1,57 @@
+Raspi aeon
+
+Raspberry Pi Benchmark Test
+Author: AikonCWD
+Version: 3.0
+
+temp=39.4'C
+arm_freq=1500
+core_freq=500
+core_freq_min=200
+gpu_freq=500
+gpu_freq_min=250
+sd_clock=50.000 MHz
+
+Running InternetSpeed test...
+Ping: 32.562 ms
+Download: 42.87 Mbit/s
+Upload: 34.11 Mbit/s
+
+Running CPU test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+ total time: 10.0003s
+ min: 0.27
+ avg: 0.28
+ max: 1.29
+temp=44.3'C
+
+Running THREADS test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+ total time: 10.0088s
+ min: 13.10
+ avg: 13.53
+ max: 23.95
+temp=46.2'C
+
+Running MEMORY test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+3072.00 MiB transferred (6942.79 MiB/sec)
+ total time: 0.4373s
+ min: 0.00
+ avg: 0.00
+ max: 4.05
+temp=45.7'C
+
+Running HDPARM test...
+ Timing buffered disk reads: 130 MB in  3.01 seconds =  43.13 MB/sec
+temp=41.3'C
+
+Running DD WRITE test...
+536870912 bytes (537 MB, 512 MiB) copied, 46.3342 s, 11.6 MB/s
+temp=39.9'C
+
+Running DD READ test...
+536870912 bytes (537 MB, 512 MiB) copied, 11.9518 s, 44.9 MB/s
+temp=39.9'C
+
+AikonCWD's rpi-benchmark completed!

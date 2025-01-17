@@ -1,0 +1,56 @@
+Raspi bifrost
+
+Raspberry Pi Benchmark Test
+Author: AikonCWD
+Version: 3.0
+
+temp=49.4'C
+arm_freq=1200
+arm_freq_min=600
+core_freq=400
+sdram_freq=450
+gpu_freq=300
+sd_clock=50.000 MHz
+
+Running InternetSpeed test...
+Cannot retrieve speedtest configuration
+ERROR: HTTP Error 403: Forbidden
+
+Running CPU test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+ total time: 10.0005s
+ min: 0.68
+ avg: 0.69
+ max: 1.44
+temp=60.1'C
+
+Running THREADS test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+ total time: 10.0211s
+ min: 26.61
+ avg: 26.78
+ max: 27.49
+temp=71.4'C
+
+Running MEMORY test...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+3072.00 MiB transferred (4200.64 MiB/sec)
+ total time: 0.7234s
+ min: 0.00
+ avg: 0.00
+ max: 0.43
+temp=72.0'C
+
+Running HDPARM test...
+ Timing buffered disk reads:  68 MB in  3.05 seconds =  22.26 MB/sec
+temp=61.2'C
+
+Running DD WRITE test...
+536870912 bytes (537 MB, 512 MiB) copied, 25.5941 s, 21.0 MB/s
+temp=55.3'C
+
+Running DD READ test...
+536870912 bytes (537 MB, 512 MiB) copied, 22.9842 s, 23.4 MB/s
+temp=54.2'C
+
+AikonCWD's rpi-benchmark completed!
