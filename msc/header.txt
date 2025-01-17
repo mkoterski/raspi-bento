@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# R A S P I   B E N T O
+# 
+# This script serves up a variety of benchmark tests without any fuss.
+# Version 3.02
+# Author: Matthias Koterski
+# Based on AikonCWD's Raspberry Pi Benchmark Test
+#
+# Backlog:
+# - add more tests and make them more demanding for newer hardware
+# - add more options (e.g. report export)
+# - add more colors and overwork UI
+# - syntax updates
+# - support more devices
+# 
+# 3.02 Updates:
+# - modified initial information displayed
+# - removed colours for later readjustments
+# - add prompt for internet speed test - doesn't work yet and gets skipped
+# 
+# 3.01 Updates:
+# - updated deprecated sysbench syntax
+#
