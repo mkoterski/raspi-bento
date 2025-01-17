@@ -36,9 +36,9 @@ if [ ! `which speedtest-cli` ]; then
 fi
 
 # Check for command-line argument to manually run Internet speed test
-run_speedtest="n"
+run_speedtest="y"
 if [ "$1" == "--speedtest" ]; then
-  run_speedtest="y"
+  run_speedtest="n"
 fi
 
 # Script start!
