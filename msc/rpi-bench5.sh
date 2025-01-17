@@ -73,4 +73,4 @@ echo 3 > /proc/sys/vm/drop_caches && sync && dd if=~/test.tmp of=/dev/null bs=1M
 vcgencmd measure_temp
 rm -f ~/test.tmp
 
-echo "Raspi Bento is done!🍱"
+echo -e "\e[91mRaspi Bento is done! 🍱\e[0m\n"
