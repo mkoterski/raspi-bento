@@ -4,7 +4,7 @@ to run, simply copy and paste the following command in your Raspberry Pi console
 
      curl -L https://raw.githubusercontent.com/mkoterski/raspi-bento/master/raspi-bento.sh | sudo bash
 
-<p align="center"><img src="hhttps://i.imgur.com/eCWk6Is.jpeg"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mkoterski/raspi-bento/refs/heads/master/src/raspi-bento-splash-new2.jpg"></p>
 
 ## Information
 Raspi Bento runs several benchmark tests to stress your Raspberry Pi hardware all catered by a menu, offering to export your results as a file for later reference.
