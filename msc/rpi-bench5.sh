@@ -45,7 +45,7 @@ fi
 # Show simple system information
 clear
 sync
-model_info=$(cat /proc/device-tree/model)
+model_info=$(cat /proc/device-tree/model | tr -d '\0')
 os_info=$(lsb_release -d | cut -f2)
 echo -e "\e[92mRaspi Bento - Version 3.02\e[97m"
 echo -e "$(hostname) | $os_info | $(uname -m) | $model_info"
