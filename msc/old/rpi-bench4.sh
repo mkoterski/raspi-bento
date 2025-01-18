@@ -16,7 +16,7 @@
 # 
 # 3.02 Updates:
 # - modified initial information displayed
-# - add prompt for internet speed test
+# - add prompt for internet speed test - doesn't work yet and gets skipped
 # 
 # 3.01 Updates:
 # - updated deprecated sysbench syntax

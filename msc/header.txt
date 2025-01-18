@@ -11,13 +11,15 @@
 # - add more tests and make them more demanding for newer hardware
 # - add more options (e.g. report export)
 # - add more colors and overwork UI
-# - syntax updates
 # - support more devices
 # 
+# 3.03 Updates:
+# - displayed
+#
 # 3.02 Updates:
 # - modified initial information displayed
 # - removed colours for later readjustments
-# - add prompt for internet speed test - doesn't work yet and gets skipped
+# - add argument when running script for skipping internet speed test
 # 
 # 3.01 Updates:
 # - updated deprecated sysbench syntax
