@@ -25,10 +25,12 @@ clear
 sync
 model_info=$(cat /proc/device-tree/model | tr -d '\0')
 os_info=$(lsb_release -d | cut -f2)
-echo "Raspi Bento - Version 0.03"
+printf "Raspi Bento - Version 0.03%*s\n" $(( $(tput cols) - 28 )) "$(date +"%Y-%m-%d - %H:%M")"
+#echo "Raspi Bento - Version 0.03         $(date +"%Y-%m-%d - %H:%M")"
 echo "$(hostname) | $os_info | $model_info | $(uname -m)" 
 #echo "$(date +%Y%m%d-%H%M)"
-echo "$(date +"%Y-%m-%d - %H:%M")"
+#echo "$(date +"%Y-%m-%d - %H:%M")"
+echo -e "\e[0m"
 
 # Show current hardware
 vcgencmd measure_temp
@@ -48,6 +50,7 @@ if [ "$run_speedtest" == "y" ]; then
 else
   echo "Skipping InternetSpeed test..."
 fi
+echo -e "\e[0m"
 
 echo -e "Running CPU test..."
 sysbench cpu --cpu-max-prime=5000 --threads=4 run | grep 'total time:\|min:\|avg:\|max:' | tr -s [:space:]
