@@ -1,6 +1,7 @@
 - no network connection
 - no Internet connection 
 - usage of an nvme disk instead of an SD card
+- multiple storage devices available
 - dependencies not available
 - usage of mint, fedora, raspian OS, kali
 - no write permission for report export
