@@ -1,0 +1,11 @@
+- no network connection
+- no Internet connection 
+- usage of an nvme disk instead of an SD card
+- dependencies not available
+- usage of mint, fedora, raspian OS, kali
+- no write permission for report export
+- use IPv4 and IPv6 IP addresses
+- use multiple local IP addresses
+- use only IPv6 local addresses 
+- ISP uses IPv6 address
+- use multiple NICs
