@@ -26,10 +26,8 @@ sync
 model_info=$(cat /proc/device-tree/model | tr -d '\0')
 os_info=$(lsb_release -d | cut -f2)
 printf "Raspi Bento - Version 0.03%*s\n" $(( $(tput cols) - 28 )) "$(date +"%Y-%m-%d - %H:%M")"
-#echo "Raspi Bento - Version 0.03         $(date +"%Y-%m-%d - %H:%M")"
 echo "$(hostname) | $os_info | $model_info | $(uname -m)" 
-#echo "$(date +%Y%m%d-%H%M)"
-#echo "$(date +"%Y-%m-%d - %H:%M")"
+
 echo -e "\e[0m"
 
 # Show current hardware

@@ -25,6 +25,8 @@ display_menu() {
 
   printf "\e[1;33m2 - CPU Test\e[0m\n"
   printf "\e[1;32m%-15s%-15s%-15s\n" "CPU" "Threads" "Memory"
+  printf "%-30s %-20s %-20s %-20s\n" "2 - CPU Test" "CPU" "Threads" "Memory"
+  printf "%-30s %-20s %-20s %-20s\n" "2 - CPU Test" "CPU" "Threads" "Memory"
   printf "\e[1;32m%-15s%-15s%-15s\n" "time: 10.0014s" "time: 10.0133s" "time: 1.4694s"
   printf "\e[1;32m%-15s%-15s%-15s\n" "min: 1.39" "min: 54.33" "min: 0.00"
   printf "\e[1;32m%-15s%-15s%-15s\n" "avg: 1.41" "avg: 54.75" "avg: 0.00"

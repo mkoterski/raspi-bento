@@ -38,7 +38,7 @@ fi
 # Script start!
 clear
 sync
-echo -e "\e[96mRaspi Bento - Version 3.02\e[97m"
+echo -e "\e[96mRaspi Bento - Version 0.02\e[97m"
 echo -e "$(uname -m) | $(hostname)"
 echo "$(date +%Y%m%d-%H%M)"
 echo -e "\e[97m"

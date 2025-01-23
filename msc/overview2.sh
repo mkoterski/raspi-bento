@@ -23,4 +23,5 @@ calypso | Ubuntu 24.04.1 LTS | aarch64      Raspberry Pi 3 Model B Plus Rev 1.3
                         52.8301 s, 10.2 MB/s        22.9001 s, 23.4 MB/s
                         max. read speed: 68 MB in  3.03 seconds =  22.44 MB/sec
 
+Press number to run test or 'q' to quit:
                    

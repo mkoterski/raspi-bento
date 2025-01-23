@@ -10,7 +10,7 @@ sudo  curl -L https://raw.githubusercontent.com/mkoterski/raspi-bento/refs/heads
 
 
 # initial test setup
-mkdir $USER/projects && cd $USER/projects
+sudo mkdir /home/matthias/projects && cd /home/matthias/projects
 git clone https://github.com/mkoterski/raspi-bento.git
 cd raspi-bento/
 
