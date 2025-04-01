@@ -7,7 +7,7 @@
 Raspi Bento - v0.04                                          2025-01-18 - 13:58
 calypso | Ubuntu 24.04.1 LTS | aarch64      Raspberry Pi 3 Model B Plus Rev 1.3
 
-1 - Internet Test       Internet                    Local network
+1 - Internet Test       Internet                    Network
                         Ping: 28.975 ms             Connection(s): eth0, wlan0
                         Download: 47.86 Mbit/s      Local IP: 192.168.1.132
                         Upload: 52.54 Mbit/s        Public IP: 80.12.34.88

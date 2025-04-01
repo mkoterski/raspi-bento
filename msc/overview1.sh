@@ -19,8 +19,32 @@ calypso | Ubuntu 24.04.1 LTS | aarch64      Raspberry Pi 3 Model B Plus Rev 1.3
 
 
 
-Press number to run test or 'q' to quit:
+Press number to run test single. Press 'a' to run all tests or 'q' to quit:
 
+
+
+# new start screen idea
+
+Raspi Bento - Version 0.03                                   2025-01-18 - 13:58
+calypso | Ubuntu 24.04.1 LTS | aarch64      Raspberry Pi 3 Model B Plus Rev 1.3
+
+[1] Internet Test       Internet                    Local network
+                        [x] Install missing dependencies? (y/n)    
+
+
+[2] CPU Test            CPU             Threads         Memory
+                        [i] Running CPU test...
+
+
+
+
+
+[3] Storage Test        Write speed                 Read speed
+                        [✓] Ready                   [✓] Ready
+
+
+
+Press number to run test or 'q' to quit:
 
 # start screen
 
