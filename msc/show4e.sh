@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if script is run as root
+# Check if script is run as root 
 [ "$(whoami)" == "root" ] || { echo "raspi-bento requires to be run as sudo!"; exit 1; }
 
 print_at_position() {
